@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Form</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <% if (error) { %><div class="error"><%= error %></div><% } %>
+    <% if (success) { %><div class="success"><%= success %></div><% } %>
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
